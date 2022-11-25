@@ -1,0 +1,416 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Image Banner Css */
+.banner .container_fluid{
+    background-color: rgb(240, 223, 223);
+    background-image: url(../img/about_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.banner .container_fluid .overlay{
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .container_fluid .overlay .container{
+    flex-basis: 60%;  
+}
+/* .banner .container_fluid .overlay .container .banner_box{
+    background-color: gray; 
+} */
+
+.banner .container_fluid .overlay .container .banner_box .subTitle{
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-family: 'goldenbook';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.65;
+    letter-spacing: 4px;
+    padding-bottom: 15px;
+}
+.banner .container_fluid .overlay .container .banner_box .Title{
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-family: 'goldenbook';
+    font-style: normal;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: 4px;
+}
+/* Image Banner Css */
+
+
+/* Image With Text Css */
+.imgText{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+
+}
+.imgText .container{
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+.imgText .container .text_details {
+    flex-basis: 60%;
+    text-align: center;
+    padding-right: 10%;
+    padding-top: 5%;
+    /* padding-right: 10%; */
+}
+.imgText .container .text_details .text_title{
+    color: #5f6979e3;
+    font-family: "goldenbook";
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.imgText .container .text_details .details{
+    text-align: center;
+    font-family: 'goldenbook';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px; 
+    color: #444e5ad7;
+    padding-bottom: 30px;
+
+}
+.imgText .container .text_details .details a{
+    text-decoration: none;
+    color: #444e5aa8;
+    font-weight: 700;
+    font-family: "goldenbook";
+    font-size: 18px;
+}
+
+.imgText .container .img_details{
+    flex-basis: 40%;
+}
+.imgText .container .img_details img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Image With Text Css */
+
+
+
+/* Our Work Section Part CSS */
+/* .our_work .container_fluid {
+     background-color: rgb(240, 223, 223);
+    background-image: url(../img/about_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;  
+} */
+
+.our_work .container_fluid .overlay{
+    background-color: #444e5a;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our_work .container_fluid .overlay .container{
+    flex-basis: 60%; 
+}
+.our_work .container_fluid .overlay .container .subTitle{
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-family: 'goldenbook';
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 5px;
+    line-height: 1.65;
+    padding-bottom: 20px;
+}
+.our_work .container_fluid .overlay .container .Title{
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-family: 'goldenbook';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 66px;
+    letter-spacing: 4px;
+}
+.our_work .container_fluid .overlay .container .btnBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our_work .container_fluid .overlay .container .btnBox .our_btn{
+    margin-top: 45px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "goldenbook";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #5f6979;
+    padding: 10px 30px;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+
+}
+.our_work .container_fluid .overlay .container .btnBox .our_btn:hover{
+    color: #fff;
+    background-color: #5f6979;
+}
+/* Our Work Section Part CSS */
+
+
+/* Our Client Reviews Part Start  */
+.reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 80px 0 60px;
+}
+.reviews .container{
+    flex-basis: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.reviews .container .text_box{
+    flex-basis: 50%;
+    background-color: #dfdfdf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reviews .container .text_box .text_details{
+    padding:0 12%;
+    text-align: center;
+}
+.reviews .container .text_box .text_details .Title{
+    color: rgba(68, 78, 90, 1);
+    font-weight: 400;
+    font-family: "goldenbook";
+    font-style: normal;
+    font-size: 23px;
+    line-height: 1.65;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.reviews .container .text_box .text_details hr{
+    border: 1px solid rgba(192, 186, 186, 0.459);
+}
+.reviews .container .text_box .text_details p{
+    padding-top: 15px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 20px;
+    color: #444e5a;
+    font-family: "Goldenbook";
+    font-weight: 400;
+}
+.reviews .container .text_box .text_details p span a{
+    text-decoration: none;
+    font-style: italic;
+    color: #444e5a;
+    font-weight:300;
+}
+
+.reviews .container .image_box{
+    flex-basis: 50%;
+    
+}
+.reviews .container .image_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Our Client Reviews Part Start  */
+
+
+/*  Clients Logo Part Css*/
+.client_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.client_logo .container{
+    flex-basis: 80%;
+    text-align: center;
+}
+.client_logo .container .Title{
+    padding-bottom: 40px;
+    color: rgba(0, 0, 0, 0.753);
+    font-weight: 400;
+    font-family: "goldenbook";
+    font-style: normal;
+    font-size: 22px;
+    line-height: 1.65;
+    letter-spacing: 6px;
+    text-align: center;
+}
+.client_logo .container .logo_box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.client_logo .container .logo_box .logos{
+    flex-basis: 15%;
+}
+.client_logo .container .logo_box .logos img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*  Clients Logo Part Css*/
+
+
+
+
+/* Mobile Responsive Part Mobile */
+/* Mobile Responsive Part Mobile */
+@media (max-width:768px) {
+/* Banner Part Start */
+    .banner .container_fluid .overlay .container {
+        flex-basis: 90%;
+    }
+    .banner .container_fluid .overlay .container .banner_box .Title {
+        letter-spacing: 5px;
+    }
+/* ImgText Part Start */
+    .imgText {
+        padding: 10% 0;
+    }
+    .imgText .container {
+        flex-basis: 95%;
+    }
+    .imgText .container .text_details {
+        flex-basis: 50%;
+        padding-top: 5%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .imgText .container .img_details {
+        flex-basis: 50%;
+    }
+/* Our Work Part Start */
+    .our_work .container_fluid .overlay .container {
+        flex-basis: 100%;
+    }
+    .our_work .container_fluid .overlay .container .btnBox .our_btn {
+        margin-top: 15px;
+    }
+/* Review Part Start */
+    .reviews .container .text_box .text_details {
+        padding: 0 6%;
+    }
+    .reviews {
+        padding: 40px 0 40px;
+    }
+    .reviews .container .text_box .text_details p {
+        padding-top: 10px;
+        font-size: 18px;
+    }
+/* Client Part Start */
+    .client_logo {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+   .client_logo .container{
+    flex-basis: 90%;
+   }
+   .client_logo .container .Title {
+    padding-bottom: 30px;
+    }
+    .client_logo .container .logo_box .logos {
+        flex-basis: 20%;
+    }
+}
+/* Mobile Responsive Part Mobile */
+/* Mobile Responsive Part Mobile */
+
+/* Small Device max:425px */
+/* Small Device max:425px */
+@media (max-width:425px) {
+    .banner .container_fluid .overlay .container .banner_box .Title {
+        letter-spacing: 2px;
+        font-size: 30px;
+    }
+
+
+    .imgText .container {
+        flex-basis: 90%;
+    }
+    .imgText .container {
+        flex-direction: column;
+    }
+    .imgText .container .text_details {
+        order: 2;
+        background-color: rgba(248, 213, 213, 0.185);
+        /* order: 1; */
+    }
+    .imgText .container .img_details {
+        padding: 0 0px;
+        order: 1;
+        margin-bottom: -5px;
+        /* order: 2; */
+    }
+
+    .our_work .container_fluid .overlay .container .subTitle {
+        letter-spacing: 3px;
+        padding-bottom: 10px;
+    }
+    .our_work .container_fluid .overlay .container .btnBox .our_btn {
+        font-size: 16px;
+    }
+
+
+    .reviews {
+        padding: 50px 0 20px;
+    }
+    .reviews .container {
+        flex-direction: column;
+    }
+    .reviews .container .text_box .text_details {
+        padding: 8% 6% 12%;
+    }
+    .reviews .container .text_box {
+        background-color: #dfdfdf80;
+    }
+
+    .client_logo .container .Title {
+        padding-bottom: 20px;
+    }
+}
+/* Small Device max:425 */
+/* ======Aadi Palash====== */
+/* Small Device max:425 */
